@@ -1,11 +1,13 @@
 using BestDeal.Api.ViewModels;
 using BestDeal.Models.Deals;
 using BestDeal.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BestDeal.Api.Controllers;
 
 [ApiController]
+[Authorize]
 [Route("api/[controller]")]
 public class AmazonController : ControllerBase
 {
