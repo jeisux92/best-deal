@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestDeal.Repository", "Best
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestDeal.Models", "BestDeal.Models\BestDeal.Models.csproj", "{B03600EC-0CE6-4A4A-8B79-CBF93ACD9500}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestDeal.Services.Test", "BestDeal.Services.Test\BestDeal.Services.Test.csproj", "{7C2AAC1C-9EAC-4870-A068-025CD9BABA60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{B03600EC-0CE6-4A4A-8B79-CBF93ACD9500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03600EC-0CE6-4A4A-8B79-CBF93ACD9500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B03600EC-0CE6-4A4A-8B79-CBF93ACD9500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2AAC1C-9EAC-4870-A068-025CD9BABA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2AAC1C-9EAC-4870-A068-025CD9BABA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2AAC1C-9EAC-4870-A068-025CD9BABA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2AAC1C-9EAC-4870-A068-025CD9BABA60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
